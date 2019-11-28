@@ -1,0 +1,52 @@
+.text {
+    font-family: Normal, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #212121;
+    margin-left: 15px;
+  }
+  
+  .text::first-letter {
+    font-family: 'Normal', cursive;
+    color: rgb(0, 255, 221);
+    font-size: 30px;
+    margin-left: 5%;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 14px;
+  }
+  
+  .site-navigation {
+    margin: auto;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .site-navigation li {
+    float: left;
+  }
+  
+  .site-navigation a {
+    display: block;
+    padding: 0 10px;
+    font-size: 25px;
+    color: #212121;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .site-navigation a:hover {
+    color: rgb(0, 255, 221);
+  }
+  
+  .site-navigation a:focus {
+    color: rgb(0, 255, 221);
+  }
+  
+  .clearfix {
+    display: table;
+    content: "";
+    clear: both;
+  }
