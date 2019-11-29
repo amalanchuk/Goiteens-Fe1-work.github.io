@@ -29,8 +29,8 @@
   
   .site-navigation a {
     display: block;
-    padding: 30px;
-    font-size: 15px;
+    padding: 10px;
+    font-size: 10px;
     color: black;
     font-weight: 500;
     text-decoration: none;
@@ -49,3 +49,48 @@
     content: "0";
     clear: both;
   }
+.p{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    border-bottom: 2px solid maroon;
+    padding-bottom: 5px;
+    margin-right: 40%;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background: whitesmoke;
+    display: inline-block;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+}
+.footer{
+    width: 200px;
+    height: 40px;
+    background: wheat;
+}
+.name{
+    width: 120px;
+    display: inline-block;
+    line-height: 40px;
+}
+.price{
+    width: 76px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+.item:hover .footer{
+    background: lightslategrey;
+}
+.item:hover .img{
+    background: maroon;
+}
+.kartinka{
+    width: 200px;
+    height: 200px;
