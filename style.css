@@ -1,9 +1,11 @@
-.text {
+.logo-text {
     font-family: Normal, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: black;
     margin-left: 15px;
+    display: inline-block;
+    margin-right: 0px;
       }
   
   .text::first-letter {
@@ -12,21 +14,27 @@
     font-size: 20px;
     margin-left: 5%;
   }
-  * {
+  .aaaa
+  {
     box-sizing: border-box;
     padding: 0;
     margin-right: 14px;
   }
   
   .site-navigation {
-    margin: auto;
+    display: inline-block;
     font-family: Roboto, sans-serif;
+    list-style: none;
   }
   
   .site-navigation li {
     float: left;
   }
-  
+  .nav{
+    display: inline-block;
+    width:90%;
+    text-align:right;
+  }
   .site-navigation a {
     display: block;
     padding: 10px;
@@ -35,6 +43,7 @@
     font-weight: 500;
     text-decoration: none;
     text-transform: uppercase;
+    list-style: none;
   }
   
   .site-navigation a:hover {
@@ -44,12 +53,7 @@
   .site-navigation a:focus {
     color: rgb(0, 255, 221);
   }
-   .clearfix {
-    display: table;
-    content: "0";
-    clear: both;
-  }
-.p{
+.h1{
     text-decoration: underline;
     text-decoration-color: aqua;
     border-bottom: 2px solid maroon;
@@ -62,6 +66,7 @@
     height: 200px;
     background: whitesmoke;
     display: inline-block;
+    margin: 40px;
 }
 
 .img{
@@ -71,26 +76,28 @@
 .footer{
     width: 200px;
     height: 40px;
-    background: wheat;
+    background: grey;
 }
 .name{
     width: 120px;
     display: inline-block;
     line-height: 40px;
+    font-size: 14px;
 }
 .price{
     width: 76px;
     display: inline-block;
     line-height: 40px;
 }
-
-
 .item:hover .footer{
-    background: lightslategrey;
+    background: rgb(0, 255, 221);
 }
 .item:hover .img{
-    background: maroon;
+    background: rgb(85, 105, 126);
 }
 .kartinka{
     width: 200px;
-    height: 200px;
+    height: 200px;}
+  .line{
+    margin-left: 15%;
+  }
