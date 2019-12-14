@@ -72,7 +72,7 @@
 .footer{
     width: 200px;
     height: 40px;
-    background: grey;
+    background: black;
 }
 .name{
     width: 120px;
@@ -90,7 +90,7 @@
     background: #4ec6ab;
 }
 .item:hover .img{
-    background: rgb(85, 105, 126);
+    background: rgb(173, 216, 230, 0.425);
 }
 .kartinka{
     width: 200px;
@@ -101,20 +101,68 @@
 .zaglavie2{
     font-family: 'Roboto', sans-serif;
     color: rgb(81, 81, 81);
-    margin-left: 40%;
+    margin-left: 43%;
+    position: relative;
 }
-::after{
+h1{
+    margin:0 auto;
+}
+h1::after{
     content: "";
     position: absolute;
-    top: 170px;
-    right: 690px;
+    top: 60px;
+    right: 640px;
     height: 7px;
     width: 200px;
     background-color: #4ec6ab;
+    width:300px;
 }
 .zaglavie{
     font-family: 'Roboto', sans-serif;
     color: rgb(81, 81, 81);
     margin-left: 40%;
+    position: relative;
 
+}
+.name{
+    color: white;
+
+}
+.price{
+    color: white;
+}
+.bottom{
+    margin-left: 15%;
+    display: inline-block;
+  
+}
+button{
+    width: 140px;
+    height: 40px;
+    background: rgba(33, 165, 165, 0.671);
+    color: white;
+    border:rgba(33, 165, 165, 0.671) ;
+}
+.down{
+    width: 300px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+}
+.up{
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+.up::after{
+    content: " ";
+    position: absolute;
+    top: 90px;
+    right: 89px;
+    height: 7px;
+    width: 210px;
+    background-color: #4ec6ab;
+}
+.i{
+    width: 400px;
+    height: 200px;
 }
