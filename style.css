@@ -1,3 +1,4 @@
+
 .logo-text {
     font-family: Normal, sans-serif;
     font-size: 18px;
@@ -110,8 +111,8 @@ h1{
 h1::after{
     content: "";
     position: absolute;
-    top: 60px;
-    right: 640px;
+    top: 49px;
+    right: 820px;
     height: 7px;
     width: 200px;
     background-color: #4ec6ab;
@@ -165,4 +166,7 @@ button{
 .i{
     width: 400px;
     height: 200px;
+}
+.fon{
+    background-color: whitesmoke;
 }
