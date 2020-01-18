@@ -112,7 +112,7 @@ h1::after{
     content: "";
     position: absolute;
     top: 49px;
-    right: 820px;
+    right: 640px;
     height: 7px;
     width: 200px;
     background-color: #4ec6ab;
@@ -169,4 +169,20 @@ button{
 }
 .fon{
     background-color: whitesmoke;
+}
+
+.koncovka{
+  display: inline-block;
+  width: 414px;
+  font-family: 'Roboto', sans-serif;
+}
+.text{
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+.osnovnoy{
+  margin-left: 150px ;
+  margin-top: 50px;
+
+  
 }
