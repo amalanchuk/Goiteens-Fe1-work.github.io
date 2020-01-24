@@ -37,6 +37,7 @@
     display: inline-block;
     width:90%;
     text-align:right;
+    margin-top: -200px;
   }
   .site-navigation a {
     display: block;
@@ -112,9 +113,8 @@ h1::after{
     content: "";
     position: absolute;
     top: 49px;
-    right: 640px;
+    right: 820px;
     height: 7px;
-    width: 200px;
     background-color: #4ec6ab;
     width:300px;
 }
@@ -179,10 +179,41 @@ button{
 .text{
   width: 300px;
   font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
 }
 .osnovnoy{
-  margin-left: 150px ;
+  margin-left: 300px ;
   margin-top: 50px;
 
   
+}
+.zag{
+  font-family: 'Roboto', sans-serif;
+}
+.zag::after{
+  content: "";
+  position: absolute;
+  top: 1070px;
+  right: 790px;
+  height: 5px;
+  background-color: #4ec6ab;
+  width: 380px;
+}
+.zag3::after{
+  content: "";
+  position: absolute;
+  top: 1070px;
+  right: 1210px;
+  height: 5px;
+  background-color: #4ec6ab;
+  width: 380px;
+}
+.zag2::after{
+  content: "";
+  position: absolute;
+  top: 1070px;
+  right: 375px;
+  height: 5px;
+  background-color: #4ec6ab;
+  width: 380px;
 }
